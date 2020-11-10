@@ -9,15 +9,10 @@ services:
         command:  -X
         ports: 
             - 1812:1812/udp
-            # - 1812:1812/tcp
-            # - 1813:1813/tcp
             - 1813:1813/udp
-            - "40:22"
         restart: always
         networks: 
             - network-radius
-        volumes: 
-            - /var/tmp:/var/tmp
         depends_on: 
             - db
     
@@ -49,7 +44,7 @@ services:
             - network-radius
         depends_on: 
             - db
-            
+
 networks: 
     network-radius:
         driver: bridge

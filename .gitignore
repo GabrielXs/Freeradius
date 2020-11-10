@@ -32,4 +32,5 @@ _ReSharper*/
 .vscode/
 #Nuget packages folder
 packages/
-
+.vagrant/
+backup/
