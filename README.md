@@ -209,7 +209,7 @@ para destruir a maquina virtual:
 cd freeradius-with-docker
  vagrant destroy
 ```
- >> cuidado ao executar esse comando pois irá apagar todos os dados do banco de dados antes faça um backup para não perder os dados
+ > cuidado ao executar esse comando pois irá apagar todos os dados do banco de dados antes faça um backup para não perder os dados
  
 License
 ----
